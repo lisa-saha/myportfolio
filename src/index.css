@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto Slab');
+
+:root{
+
+    --white-theme-background-color: rgb(1, 6, 13);
+    --white-theme-main-color: white;
+    --white-theme-sub-text-color: rgb(246, 245, 245);
+    --white-theme-nav-background-color: rgb(12, 12, 12);
+
+
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body{
+    background: var(--white-theme-background-color);
+    height: 100%;
+
+}
+
+#root{
+    height: 100%;
+}
